@@ -1,0 +1,6 @@
+.headerContainer{
+    color: var(--headingColor);
+    background-color: var(--headingBG);
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+.barraContainer{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--bgColor);
+    border-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.github{
+    height: 4rem;
+    width: auto;
+}
+
+.linkedin {
+    height: 4rem;
+    width: auto;
+}
+
+.cv {
+    height: 4rem;
+    width: auto;
+}

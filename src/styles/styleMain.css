@@ -1,0 +1,53 @@
+.mainContainer{
+    color: #E3E3E3;
+    background-color: #242526;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%; /* Ancho de la caja */
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+    height: fit-content;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+h4{
+  color: var(--headingBG);
+  font-size: 150%;
+  align-self: center;
+}
+.tituloContainer {
+
+}
+
+.parrafoContainer, .parrafoInstruccionesContainer {
+    width: 100%; /* Ancho de la caja */
+    height: fit-content;
+    border: 5px solid white; /* Borde de la caja */
+    margin-left: auto; /* Alinear a la derecha */
+    margin-right: auto;
+    gap: 1.5rem;
+    border-radius: 10%;
+}
+.parrafoPersonalContainer {
+  width: 80%;
+  height: fit-content;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  border: 5px solid white;
+  border-radius: 10%;
+}
+
+.parrafoPersonal{
+    font-size: 105%;
+    text-align: center;
+
+}
+
+.parrafoSSchess, .parrafoInstrucciones {
+    
+    font-size: 105%;
+    text-align: center;
+    padding: 7%;
+}
