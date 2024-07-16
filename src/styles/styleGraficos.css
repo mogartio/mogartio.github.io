@@ -1,24 +1,57 @@
-.Graficos{
-  height: 100%;
+@media only screen
+and (min-width : 900px){
+  .Graficos{
+    height: 100%;
+  }
+
+  .GraficosContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--bgColor);
+    padding: 2%;
+  }
+  .botonGrafico {
+    height: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .GraficosSubContainer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bgColor);
+    padding: 2%;
+  }
 }
 
-.GraficosContainer{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--bgColor);
-  padding: 2%;
-}
-.botonGrafico {
-  height: 2rem;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 2%;
-  margin-left: 2%;
-}
-.GraficosSubContainer{
-  display: flex;
-  justify-content: center;
-  background-color: var(--bgColor);
-  padding: 2%;
+@media only screen
+and (max-width : 450px){
+  .Graficos{
+    width: 85%;
+    height: 85%;
+  }
+
+  .GraficosContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--bgColor);
+    padding: 2%;
+  }
+  .botonGrafico {
+    height: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .GraficosSubContainer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bgColor);
+    padding: 2%;
+  }
 }

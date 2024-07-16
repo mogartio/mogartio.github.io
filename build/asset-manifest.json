@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mogartio.github.io/static/css/main.73ceef46.css",
-    "main.js": "/mogartio.github.io/static/js/main.85dfba11.js",
-    "static/media/CV.pdf": "/mogartio.github.io/static/media/CV.e2566045dc3560722456.pdf",
-    "static/media/ejercicio7.png": "/mogartio.github.io/static/media/ejercicio7.f55ff88b9fdd05a548aa.png",
-    "static/media/ejercicio6.png": "/mogartio.github.io/static/media/ejercicio6.091398362828655c6cc3.png",
-    "static/media/ejercicio5.png": "/mogartio.github.io/static/media/ejercicio5.9c22e42c6b9c353ce097.png",
-    "static/media/ejercicio3.png": "/mogartio.github.io/static/media/ejercicio3.db4982a2f8365fc1abc0.png",
-    "static/media/ejercicio2.png": "/mogartio.github.io/static/media/ejercicio2.86523cffc5e656f43c04.png",
-    "static/media/ejercicio4.png": "/mogartio.github.io/static/media/ejercicio4.ad2155c13292dfcfbdd7.png",
-    "static/media/logo.svg": "/mogartio.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/cvLogo.svg": "/mogartio.github.io/static/media/cvLogo.5a54c9183468df149f7487d36059491d.svg",
-    "static/media/githubFin.svg": "/mogartio.github.io/static/media/githubFin.d4a401ef7568fcddbb84cd3ed781d518.svg",
-    "static/media/linkedin.svg": "/mogartio.github.io/static/media/linkedin.db1d9da5b308c42a4103fdb885780f6d.svg",
-    "index.html": "/mogartio.github.io/index.html",
-    "main.73ceef46.css.map": "/mogartio.github.io/static/css/main.73ceef46.css.map",
-    "main.85dfba11.js.map": "/mogartio.github.io/static/js/main.85dfba11.js.map"
+    "main.css": "/static/css/main.5c5e802f.css",
+    "main.js": "/static/js/main.567098e6.js",
+    "static/media/CV.pdf": "/static/media/CV.e2566045dc3560722456.pdf",
+    "static/media/ejercicio7.png": "/static/media/ejercicio7.f55ff88b9fdd05a548aa.png",
+    "static/media/ejercicio6.png": "/static/media/ejercicio6.091398362828655c6cc3.png",
+    "static/media/ejercicio5.png": "/static/media/ejercicio5.9c22e42c6b9c353ce097.png",
+    "static/media/ejercicio3.png": "/static/media/ejercicio3.db4982a2f8365fc1abc0.png",
+    "static/media/ejercicio2.png": "/static/media/ejercicio2.86523cffc5e656f43c04.png",
+    "static/media/ejercicio4.png": "/static/media/ejercicio4.ad2155c13292dfcfbdd7.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/cvLogo.svg": "/static/media/cvLogo.5a54c9183468df149f7487d36059491d.svg",
+    "static/media/githubFin.svg": "/static/media/githubFin.d4a401ef7568fcddbb84cd3ed781d518.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.db1d9da5b308c42a4103fdb885780f6d.svg",
+    "index.html": "/index.html",
+    "main.5c5e802f.css.map": "/static/css/main.5c5e802f.css.map",
+    "main.567098e6.js.map": "/static/js/main.567098e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.73ceef46.css",
-    "static/js/main.85dfba11.js"
+    "static/css/main.5c5e802f.css",
+    "static/js/main.567098e6.js"
   ]
 }

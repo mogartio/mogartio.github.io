@@ -1,4 +1,106 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
+  .grid {
+      display: grid;
+      width: auto;
+      height: auto;
+      box-sizing: border-box;
+      object-fit: cover;
+      align-self: center;
+  }
+
+  .SschessContainer{
+      display: flex;
+      height: 55%;
+      width: 100%;
+      flex-direction: column;
+      padding-bottom: 0px;
+      align-items: center;
+
+  }
+  .gridContainer {
+      display: flex;
+      aspect-ratio:  1 / 1;
+      height: 100%;
+      flex-direction: column;
+      justify-content: right;
+      align-self: center;
+      align-items: right;
+  }
+
+  .tituloSSchess {
+      font-size: 250%;
+      text-align: center;
+  }
+
+  .nivelActual {
+      font-size: x-large;
+      align-self: center; 
+      display: inline-block;
+
+  }
+
+  .buttonContainer {
+      align-self: center; 
+  }
+
+  .gameInfoContainer {
+      color: white;
+      width: 66%;
+      height: fit-content;
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      justify-content: center;
+      gap: 15%;
+      padding: 2%;
+
+  }
+
+  .mensajeSecretoContainer {
+      height: fit-content;
+      border: 0.15rem solid #000; /* Borde de la caja */
+      align-self:center;
+      justify-content: center;
+      
+  }
+  button {
+      padding: 5rem, 10rem;
+      font-size: 1.5rem;
+      background-color: #25C2A0;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      align-self: left;
+      cursor: pointer;
+  }
+  img{
+    height: 3rem;
+
+  }
+  .cell {
+      background-color: var(--gridColor);
+      border: 0rem solid var(--gridBorders);
+      justify-content: center;
+      object-fit: contain;
+      flex-grow: 0;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      width: 40rem;
+      height: 5rem;
+      max-height: 100%;
+      padding: 0rem;
+      flex-grow:0;
+      gap: 0px;
+      object-fit: contain;
+
+    }
+}
+                  
+@media only screen
+and (min-width : 321px) {
   .grid {
       display: grid;
       width: auto;
@@ -99,90 +201,88 @@
     }
 }
 
-
-
 @media only screen and (max-width: 600px) {
-.grid {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-.SschessContainer{
-    display: flex;
-    height: 30%;
-    width: 100%;
-    flex-direction: column;
-    padding-bottom: 0px;
-
-}
-.gridContainer {
-    display: flex;
-    aspect-ratio:  1 / 1;
-    height: 100%;
-    flex-direction: column;
-    justify-content: right;
-    align-self: center;
-    align-items: right;
-}
-
-.tituloSSchess {
-    font-size: 200%;
-    text-align: center;
-}
-
-.nivelActual {
-    font-size: x-large;
-    align-self: center; 
-    display: inline-block;
-
-}
-
-.buttonContainer {
-    align-self: center; 
-}
-
-.gameInfoContainer {
-    color: white;
-    width: 66%;
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: center;
-    gap: 15%;
-    padding: 2%;
-
-}
-
-.mensajeSecretoContainer {
-    height: fit-content;
-    border: 0.15rem solid #000; /* Borde de la caja */
-    align-self:center;
-    justify-content: center;
-    
-}
-button {
-    padding: 5rem, 10rem;
-    font-size: 1.5rem;
-    background-color: #25C2A0;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    align-self: left;
-    cursor: pointer;
-}
-.cell {
-    background-color: var(--gridColor);
-    border: 0rem solid var(--gridBorders);
-    justify-content: center;
+  .grid {
+      display: grid;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
   }
 
-  .row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
+  .SschessContainer{
+      display: flex;
+      height: 30%;
+      width: 100%;
+      flex-direction: column;
+      padding-bottom: 0px;
+
   }
+  .gridContainer {
+      display: flex;
+      aspect-ratio:  1 / 1;
+      height: 100%;
+      flex-direction: column;
+      justify-content: right;
+      align-self: center;
+      align-items: right;
+  }
+
+  .tituloSSchess {
+      font-size: 200%;
+      text-align: center;
+  }
+
+  .nivelActual {
+      font-size: x-large;
+      align-self: center; 
+      display: inline-block;
+
+  }
+
+  .buttonContainer {
+      align-self: center; 
+  }
+
+  .gameInfoContainer {
+      color: white;
+      width: 66%;
+      height: fit-content;
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      justify-content: center;
+      gap: 15%;
+      padding: 2%;
+
+  }
+
+  .mensajeSecretoContainer {
+      height: fit-content;
+      border: 0.15rem solid #000; /* Borde de la caja */
+      align-self:center;
+      justify-content: center;
+      
+  }
+  button {
+      padding: 5rem, 10rem;
+      font-size: 1.5rem;
+      background-color: #25C2A0;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      align-self: left;
+      cursor: pointer;
+  }
+  .cell {
+      background-color: var(--gridColor);
+      border: 0rem solid var(--gridBorders);
+      justify-content: center;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+    }
 }
