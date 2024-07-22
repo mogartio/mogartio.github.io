@@ -18,13 +18,14 @@ function App() {
     <div className="App">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <Helmet>
-          <title>Martín Osan: the Website</title>
+          <title>Shape-shifter chess: the Website</title>
         </Helmet>
         <BarraLinks />  
         <Header />  
         <div className='cuerpo'>  
           <div className="wrapper">
               <Sschess />
+              <Main />
           </div> 
         </div>   
     </div>

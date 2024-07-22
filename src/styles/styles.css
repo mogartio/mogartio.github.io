@@ -23,7 +23,7 @@ body {
   .wrapper {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     padding-top: 5%;
     background-color: var(--bgColor);
@@ -32,7 +32,7 @@ body {
   .headerContainer{
     margin-right: auto;
     margin-left: auto;
-    font-size: 110%;
+    font-size: 130%;
     font-weight: bold;
   }
 }
