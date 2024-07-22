@@ -18,17 +18,14 @@ function App() {
     <div className="App">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <Helmet>
-          <title>Portfolio de Martín "canillas" Osan</title>
+          <title>Martín Osan: the Website</title>
         </Helmet>
         <BarraLinks />  
         <Header />  
         <div className='cuerpo'>  
           <div className="wrapper">
               <Sschess />
-              <Main />
           </div> 
-        <ParrafoPersonal />
-        <GraficosEstadistica />
         </div>   
     </div>
   );

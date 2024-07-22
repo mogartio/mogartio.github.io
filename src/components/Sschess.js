@@ -172,7 +172,7 @@ export default function Sschess() {
             </div>
             <div className='buttonContainer'>
                   {estadoJuego ? (
-                    <button onClick={reiniciarNivel} >Reiniciar Nivel</button>
+                    <button onClick={reiniciarNivel} className="botonReinicio">Reiniciar Nivel</button>
                     
                   ) : (
                     <button onClick={inicializarJuego(1)} >Empezar juego</button>
@@ -190,7 +190,7 @@ export default function Sschess() {
                         width: '100%',
                         display: 'flex',
                         height: '100%',
-                        borderColor: 'rgb(255, 30, 88)',
+                        borderColor: "#white",
                         borderWidth: '3px',
                         justifyContent: 'center',
                         alignItems: 'center',
@@ -215,12 +215,12 @@ export default function Sschess() {
                     }
                     onClick={() => hacerMovimiento(rowIndex, cellIndex)}
                     key={cellIndex} className="cell">
-                        {cell === "torre" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={torreRojo} alt="torreR" />}
-                        {cell === "torre" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={torreBlanca} alt="torreB" />}
-                        {cell === "alfil" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={alfilRojo} alt="alfilR" />}
-                        {cell === "alfil" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={alfilBlanco} alt="alfilB" />} 
-                        {cell === "caballo" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={caballoRojo} alt="caballoR" />}
-                        {cell === "caballo" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={caballoBlanco} alt="caballoB"  />}               
+                        {cell === "torre" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={torreRojo} alt="torreR" nameClass="imgPieza"/>}
+                        {cell === "torre" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={torreBlanca} alt="torreB" nameClass="imgPieza"/>}
+                        {cell === "alfil" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={alfilRojo} alt="alfilR" nameClass="imgPieza"/>}
+                        {cell === "alfil" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={alfilBlanco} alt="alfilB" nameClass="imgPieza"/>} 
+                        {cell === "caballo" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={caballoRojo} alt="caballoR" nameClass="imgPieza"/>}
+                        {cell === "caballo" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={caballoBlanco} alt="caballoB"  nameClass="imgPieza"/>}               
                     </div>
                   ))}
                 </div>

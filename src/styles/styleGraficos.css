@@ -1,7 +1,16 @@
+h5 {
+  color: var(--headingBG);
+  font-size: 110%;
+  align-self: center;
+}
 @media only screen
 and (min-width : 900px){
   .Graficos{
     height: 100%;
+  }
+  .boton{
+    background-color: var(--bgColor);
+    border: none;  
   }
 
   .GraficosContainer{
@@ -11,12 +20,24 @@ and (min-width : 900px){
     background-color: var(--bgColor);
     padding: 2%;
   }
-  .botonGrafico {
-    height: 2rem;
+  .botonGrafico{
+    height: 3rem;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 2%;
     margin-left: 2%;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  .botonGraficoIzquierda{
+    height: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 50%; 
+    transform: rotate(180deg);
+    cursor: pointer;
   }
   .GraficosSubContainer{
     display: flex;
@@ -27,12 +48,15 @@ and (min-width : 900px){
 }
 
 @media only screen
-and (max-width : 450px){
+and (min-width : 450px) and (max-width : 899px){
   .Graficos{
     width: 85%;
     height: 85%;
   }
-
+.boton{
+    background-color: var(--bgColor);
+    border: none;  
+  }
   .GraficosContainer{
     display: flex;
     width: 100%;
@@ -41,12 +65,68 @@ and (max-width : 450px){
     background-color: var(--bgColor);
     padding: 2%;
   }
-  .botonGrafico {
+  .botonGrafico{
     height: 2rem;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 2%;
     margin-left: 2%;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  .botonGraficoIzquierda {
+    height: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 50%; 
+    transform: rotate(180deg);
+    cursor: pointer;
+  }
+  .GraficosSubContainer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bgColor);
+    padding: 2%;
+  }
+}
+@media only screen
+and (max-width : 450px){
+  .Graficos{
+    width: 85%;
+    height: 85%;
+  }
+.boton{
+    background-color: var(--bgColor);
+    border: none;  
+  }
+  .GraficosContainer{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--bgColor);
+    padding: 2%;
+  }
+  .botonGrafico{
+    height: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  .botonGraficoIzquierda {
+    height: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 50%; 
+    transform: rotate(180deg);
+    cursor: pointer;
   }
   .GraficosSubContainer{
     display: flex;
