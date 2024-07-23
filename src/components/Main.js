@@ -1,3 +1,4 @@
+import mogartio from '.././img/mogartio.jpeg'
 import '.././styles/styleMain.css'
 import link from '.././img/external-link.png'
 import { useRef, useState } from 'react';
@@ -31,7 +32,10 @@ export default function Main() {
               </div> 
       {visible && 
               <div className="ContainerVisible" >
-                <div className="hola"> Hola! </div>
+                <div className="wrapperPersonal">
+                  <div className="hola"> Hola! </div>
+                  <div > <img src={mogartio} className="fotoMia"/></ div>
+                </div>
                 <p> Soy Martín, un estudiante de tercer año de Ingeniería en Informática en la UBA que usa anteojos. <br></br> 
           <br></br> 
             - Se parte de la hipotesis de que los celulares con mayor capacidad de almacenamiento suelen tener baterías más duraderas, ya que suelen ser mejores modelos.<br></br> 
