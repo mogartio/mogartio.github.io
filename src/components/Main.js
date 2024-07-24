@@ -36,7 +36,7 @@ export default function Main() {
                   <div className="hola"> Hola! </div>
                   <div > <img src={mogartio} className="fotoMia"/></ div>
                 </div>
-                <p> Soy Martín, un estudiante de tercer año de Ingeniería en Informática en la UBA que usa anteojos. <br></br> 
+                <p className="parrafoPerso">Soy Martín, un estudiante de tercer año de Ingeniería en Informática en la UBA que usa anteojos. <br></br> 
           <br></br> 
             - Se parte de la hipotesis de que los celulares con mayor capacidad de almacenamiento suelen tener baterías más duraderas, ya que suelen ser mejores modelos.<br></br> 
             - Un archivo con valores registrados sobre almacenamiento y duración de baterías fue provisto. La idea era usar estos datos para estimar la duración de la batería en función de la capacidad de almacenamiento.<br></br> 
