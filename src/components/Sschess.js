@@ -146,7 +146,6 @@ export default function Sschess() {
         }
         setCoordenadaActual([fila, col]);
         setCoordenadasMarcadas([]);
-
         obtenerCoordenadasPosibles(col, fila);
       }
     }
@@ -185,42 +184,15 @@ export default function Sschess() {
                 <div key={rowIndex} className="row">
                   {row.map((cell, cellIndex) => (
                     <div
-                    style = {
-                      (coordenadaAMarcar(rowIndex, cellIndex)) ? {
-                        width: '100%',
-                        display: 'flex',
-                        height: '100%',
-                        borderColor: "#white",
-                        borderWidth: '3px',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        flexGrow: '0%',
-                        maxHeight: '100%',
-                        boxSizing: 'border-box',
-                        objectFit: 'contain',
-                      } : {
-                        width: '100%',
-                        height: '100%',
-                        display: 'flex',
-                        borderColor: '#white',
-                        borderWidth: '3px',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        flexGrow: '0%',
-                        maxHeight: '100%',
-                        boxSizing: 'border-box',
-                        objectFit: 'contain',
-
-                      }
-                    }
+                    className = {(coordenadaAMarcar(rowIndex, cellIndex)) ? 'grillaRoja':'grillaBlanca'}
                     onClick={() => hacerMovimiento(rowIndex, cellIndex)}
-                    key={cellIndex} className="cell">
-                        {cell === "torre" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={torreRojo} alt="torreR" nameClass="imgPieza"/>}
-                        {cell === "torre" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={torreBlanca} alt="torreB" nameClass="imgPieza"/>}
-                        {cell === "alfil" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={alfilRojo} alt="alfilR" nameClass="imgPieza"/>}
-                        {cell === "alfil" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={alfilBlanco} alt="alfilB" nameClass="imgPieza"/>} 
-                        {cell === "caballo" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={caballoRojo} alt="caballoR" nameClass="imgPieza"/>}
-                        {cell === "caballo" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={caballoBlanco} alt="caballoB"  nameClass="imgPieza"/>}               
+                    key={cellIndex} >
+                        {cell === "torre" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={torreRojo} alt="torreR" className="imgPieza"/>}
+                        {cell === "torre" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={torreBlanca} alt="torreB" className="imgPieza"/>}
+                        {cell === "alfil" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={alfilRojo} alt="alfilR" className="imgPieza"/>}
+                        {cell === "alfil" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={alfilBlanco} alt="alfilB" className="imgPieza"/>} 
+                        {cell === "caballo" && (rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={caballoRojo} alt="caballoR" className="imgPieza"/>}
+                        {cell === "caballo" && !(rowIndex == coordenadaActual[0] && cellIndex == coordenadaActual[1]) && <img src={caballoBlanco} alt="caballoB"  className="imgPieza"/>}               
                     </div>
                   ))}
                 </div>

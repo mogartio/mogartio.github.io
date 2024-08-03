@@ -13,7 +13,7 @@
       justify-content: center;
       padding-top: 100px;
   }
-  h4{
+  .hola{
     color: var(--headingBG);
     font-size: 150%;
     align-self: center;
@@ -54,10 +54,10 @@
   }
   
   .ContainerVisible {
-    height: 500px;
+    height: 550px;
     border: 5px solid var(--headingBG);
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 50px;
     justify-content: center;
     display: grid;
@@ -77,8 +77,9 @@
     padding-left: 30px;
   }
   .fotoMia{
-    width: 350px;
-    padding-right: 30px;
+    width: 35% ;
+    border-radius: 50px;
+    margin-left: 60%;
   }
   .parrafoInstrucciones{
     width: fit-content;
@@ -91,19 +92,144 @@
       font-size: 105%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
   .mainContainer{
     color: #E3E3E3;
     background-color: #242526;
     font-family: 'Montserrat', sans-serif;
-    width: 50%; /* Ancho de la caja */
+    width: 80%; /* Ancho de la caja */
     display: flex;
-    gap: 1rem;
-    flex-direction: row;
+    flex-direction: column;
     height: fit-content;
-    padding-right: 5%;
-    padding-bottom: 2%;
+    align-self: center;
+    margin: auto;
+    margin-top: 30px;
+    gap: 50px;
+
   }
 
+ .hola{
+    color: var(--headingBG);
+    font-size: 150%;
+    align-self: center;
+  }
+  .parrafoInstruccionesContainer, .ContainerVisible {
+      border: 5px solid var(--headingBG);
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50px;
+      text-align: center;
+      padding: 50px;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
 
+  .fotoMia {
+    display: none;
+  }
+.botonInvisible {
+    background-color: var(--bgColor);
+    border: none;
+    font-size: 100%;
+    color: #E3E3E3;
+    
+  }
+  .botonInvisible:hover {
+    color: var(--headingBG);
+    align-self: top;
+  }
+
+}
+
+@media only screen and (min-width: 451px) and (max-width: 899px) {
+  .mainContainer{
+      color: #E3E3E3;
+      background-color: #242526;
+      font-family: 'Montserrat', sans-serif;
+      width: 100%; /* Ancho de la caja */
+      display: flex;
+      gap: 5rem;
+      flex-direction: column;
+      height: fit-content;
+      padding-bottom: 2%;
+      margin: auto;
+      justify-content: center;
+      padding-top: 100px;
+  }
+  .hola{
+    color: var(--headingBG);
+    font-size: 150%;
+    align-self: center;
+  }
+  .botonInvisible {
+    background-color: var(--bgColor);
+    border: none;
+    font-size: 100%;
+    color: #E3E3E3;
+    
+  }
+  .botonInvisible:hover {
+    color: var(--headingBG);
+    align-self: top;
+  }
+  .botonVisibilidad {
+    width: 20px;
+    align-self: bottom;
+  }
+  .parrafoContainer, .parrafoInstruccionesContainer {
+      border: 5px solid var(--headingBG);
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50px;
+      text-align: center;
+      padding: 50px;
+      justify-content: center;
+  }
+  .parrafoPersonalContainer {
+    width: 80%;
+    height: fit-content;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    border: 5px solid white;
+    border-radius: 10%;
+  }
+  
+  .ContainerVisible {
+    height: fit-content;
+    border: 5px solid var(--headingBG);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    display: grid;
+  }
+  .wrapperPersonal {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+    font-size: 150%;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .parrafoPerso {
+    width: 50%;
+    font-size: 150%;
+    padding-left: 30px;
+  }
+  .fotoMia{
+    display: none;
+  }
+  .parrafoInstrucciones{
+    width: fit-content;
+    align-self: center;
+    line-height: 50px;
+    font-size: 150%;
+  }
+
+  .parrafoPersonal{
+      font-size: 105%;
+  }
 }
