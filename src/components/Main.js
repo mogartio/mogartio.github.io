@@ -16,7 +16,9 @@ export default function Main() {
     async function scroll(){
       await timeout(1)
       window.scrollTo(0, document.body.scrollHeight)
-  }
+  };
+    const img = new Image();
+    img.src = mogartio;
     return(
       <div ref={ref}>
         <div className='mainContainer'>
@@ -36,11 +38,11 @@ export default function Main() {
                   <div className="hola"> Hola! </div>
                   <div > <img src={mogartio} className="fotoMia"/></ div>
                 </div>
-                <p className="parrafoPerso">Soy Martín, un estudiante de tercer año de Ingeniería en Informática en la UBA que usa anteojos. <br></br> 
+                <p className="parrafoPerso">Soy Martín, un estudiante de cuarto año de Ingeniería en Informática en la UBA que usa anteojos. <br></br> 
           <br></br> 
-            - Se parte de la hipotesis de que los celulares con mayor capacidad de almacenamiento suelen tener baterías más duraderas, ya que suelen ser mejores modelos.<br></br> 
-            - Un archivo con valores registrados sobre almacenamiento y duración de baterías fue provisto. La idea era usar estos datos para estimar la duración de la batería en función de la capacidad de almacenamiento.<br></br> 
-             </p></div>}
+             Me interesa la ciencia de datos y disfruto principalmente haciendo desarrollo backend a bajo y alto nivel.<br></br> <br></br>
+           Trivia sobre mi: mi lenguaje preferido es golang, uso nvim, soy hincha de racing, toco la guitarra, me gusta el ajedréz y todo el mundo siempre me dice cosas como "si estuviera buscando a un jr para mi empresa, definitivamente te contrataría a vos!"<br></br> <br></br> 
+         Muchas gracias por visitar mi página, pueden encontrar mi cv, mi perfil de linkedin y mi cuenta de github arriba de todo.    </p></div>}
               </div>
             </div>
     );

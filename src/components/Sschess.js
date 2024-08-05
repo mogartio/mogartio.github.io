@@ -84,7 +84,8 @@ export default function Sschess() {
         nuevoTablero[filInicial][colInicial] = piezaInicial;
         tablero[filInicial][colInicial] = piezaInicial;
         setEstadoInicial(nuevoTablero);
-        for (let i=0; i< nivelActual + 3; i++){
+        let limite = Math.min(10, nivelActual);
+        for (let i=0; i< limite + 3; i++){
             [piezaInicial, filInicial, colInicial] = generarNuevaPieza(piezaInicial, filInicial, colInicial);
             tablero[filInicial][colInicial] = piezaInicial;
         }
