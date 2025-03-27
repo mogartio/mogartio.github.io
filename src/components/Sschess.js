@@ -11,7 +11,7 @@ import '.././styles/gridStyle.css'
   
 export default function Sschess() {
     const [level, setLevel] = useState(0);
-    const string_level = "NIVEL: " + String(level - 1);
+    const string_level = "LEVEL: " + String(level - 1);
     const [printt, setPrintt] = useState();
     let   filaActual;
     let   colActual;
@@ -172,7 +172,7 @@ export default function Sschess() {
             </div>
             <div className='buttonContainer'>
                   {estadoJuego ? (
-                    <button onClick={reiniciarNivel} className="botonReinicio">Reiniciar Nivel</button>
+                    <button onClick={reiniciarNivel} className="botonReinicio">Restart Level</button>
                     
                   ) : (
                     <button onClick={inicializarJuego(1)} >Empezar juego</button>

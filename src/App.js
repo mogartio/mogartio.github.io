@@ -10,6 +10,7 @@ import LineaVertical from './components/LineaVertical'
 import React from 'react';
 import ParrafoPersonal from './components/ParrafoPersonal';
 import GraficosEstadistica from './components/GraficosEstadistica';
+import Video from './components/Duckgame';
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <div className="wrapper">
               <Sschess />
               <Main />
+              <Video />
           </div> 
         </div>   
     </div>

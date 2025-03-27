@@ -4,11 +4,11 @@ export default function Header() {
     return (
         
         <div className='headerContainer'>
-            <h1>Shape-shifter chess</h1>
-                  <p> El juego consta de una pieza roja que solo se puede mover a casillas ocupadas por otras piezas siguiendo las reglas convencionales del ajedrez. <br></br>
-                  
-            Cuando come una pieza se transforma en ella. <br></br>El objetivo es comer todas las piezas del tablero.<br></br> Nota: Se puede saltar por encima de otras piezas como lo suele hacer el caballo 
-                  </p>
+            <h1 className='headerTitle'>Shape-shifter chess</h1>
+                  <p> The game consists of a red piece which can only move to occupied squares according to the conventional rules of chess <br></br>
+When it takes a piece, it shifts into it.<br></br>
+You have to capture all of the pieces on the board.<br></br>
+Note: pieces can jump over other pieces like Knights.                  </p>
                 </div>
     );
 }

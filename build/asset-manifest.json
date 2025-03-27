@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c574a85.css",
-    "main.js": "/static/js/main.1be2a3e1.js",
+    "main.css": "/static/css/main.99537842.css",
+    "main.js": "/static/js/main.073e7ee6.js",
+    "static/media/mogartio.jpeg": "/static/media/mogartio.28b5895af8d896fc0d09.jpeg",
     "static/media/CV.pdf": "/static/media/CV.e2566045dc3560722456.pdf",
     "static/media/ejercicio7.png": "/static/media/ejercicio7.f55ff88b9fdd05a548aa.png",
     "static/media/arrow.png": "/static/media/arrow.755d674085572b793f45.png",
@@ -10,16 +11,17 @@
     "static/media/ejercicio3.png": "/static/media/ejercicio3.db4982a2f8365fc1abc0.png",
     "static/media/ejercicio2.png": "/static/media/ejercicio2.86523cffc5e656f43c04.png",
     "static/media/ejercicio4.png": "/static/media/ejercicio4.ad2155c13292dfcfbdd7.png",
+    "static/media/external-link.png": "/static/media/external-link.63f11abd9dafb063d12a.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/cvLogo.svg": "/static/media/cvLogo.5a54c9183468df149f7487d36059491d.svg",
     "static/media/githubFin.svg": "/static/media/githubFin.d4a401ef7568fcddbb84cd3ed781d518.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.db1d9da5b308c42a4103fdb885780f6d.svg",
     "index.html": "/index.html",
-    "main.3c574a85.css.map": "/static/css/main.3c574a85.css.map",
-    "main.1be2a3e1.js.map": "/static/js/main.1be2a3e1.js.map"
+    "main.99537842.css.map": "/static/css/main.99537842.css.map",
+    "main.073e7ee6.js.map": "/static/js/main.073e7ee6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c574a85.css",
-    "static/js/main.1be2a3e1.js"
+    "static/css/main.99537842.css",
+    "static/js/main.073e7ee6.js"
   ]
 }
